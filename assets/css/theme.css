@@ -7235,6 +7235,28 @@ input[type=range] {
 .tt-contact-info a:hover {
 	color: #FFF;
 }
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 76.25%;
+	
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+	margin-left: 3em;
+	margin-right: 10em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* Social buttons */
 .tt-contact-info .social-buttons {
@@ -7242,6 +7264,7 @@ input[type=range] {
 	margin-top: 15px;
 	margin-left: -13px;
 }
+
 
 
 /* -------------------------------------------------------------------- *
@@ -7321,6 +7344,32 @@ video.tt-bg-video {
 	display: block;
 	content: "";
 	padding-bottom: 56.25%;
+}
+.tt-embed .tt-embed-item, 
+.tt-embed embed, 
+.tt-embed iframe, 
+.tt-embed object, 
+.tt-embed video {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 .tt-embed .tt-embed-item, 
 .tt-embed embed, 
