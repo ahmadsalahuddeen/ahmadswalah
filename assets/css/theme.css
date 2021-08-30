@@ -768,7 +768,7 @@ body:not(.tt-boxed) .tt-header-inner,
 	color: #FFF;
 }
 .tt-logo img {
-	max-height: 48px; /* You may need to change the img height to match your logo type! */
+	max-height: 35px; /* You may need to change the img height to match your logo type! */
 }
 
 .tt-logo-dark{
@@ -7241,22 +7241,7 @@ input[type=range] {
     width:100%;
 }
 
-.video-container::after {
-    padding-top: 76.25%;
-	
-    display: block;
-    content: '';
-}
 
-.video-container iframe {
-	margin-left: 3em;
-	margin-right: 10em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 /* Social buttons */
 .tt-contact-info .social-buttons {

@@ -1,11 +1,4 @@
-/* =================================================================
-* Template JS
-* 
-* Template:    Tank - Creative Portfolio Showcase HTML Website Template
-* Author:      Themetorium
-* URL:         https://themetorium.net/
-*
-================================================================= */
+
 
 
 // Table of Content
@@ -2544,11 +2537,11 @@
 	// ========================================
 
 	// E-mail Ajax Send
-	$("#tt-contact-form").submit(function() { // Change (your contact form ID)
+	$("#submit-form").submit(function() { // Change (your contact form ID)
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", // Change (mail.php path)
+			url: "https://script.google.com/macros/s/AKfycbzmtBkU8DRGn6NykLbjnn8guM3DbTH_AUG8iKL2/exec", // Change (mail.php path)
 			data: th.serialize()
 		}).done(function() {
 			alert("Thank you. Your message has been sent!");
